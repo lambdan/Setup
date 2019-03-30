@@ -13,7 +13,7 @@
 
 		cd ~
 		rm .minttyrc
-		wget https://raw.githubusercontent.com/lambdan/Setup/master/Configs/.minttyrc
+		wget https://raw.githubusercontent.com/lambdan/Setup/master/Windows/Configs/.minttyrc
 
 
 Other good packages to install:
