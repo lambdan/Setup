@@ -3,7 +3,7 @@ I prefer the standalone .exe files in Path method because I use Cygwin as my "Un
 
 First, set up a folder that's in your Path: [Path Setup.md](https://github.com/lambdan/Setup/blob/master/Windows/Path%20Setup.md). If you don't wanna do that you can also place the following .exe files in the `C:/Rubyxx-x64/bin` folder you get after installing Ruby. Eitherway, I will refer to this folder as _Path_.
 
-- Install Ruby using [RubyInstaller]. Use the latest non-devkit version. During installation check all the boxes. **After installation it will ask to "Run ridk install to setup...", uncheck that!**
+- Install Ruby using [RubyInstaller](https://rubyinstaller.org/downloads/). Use the latest non-devkit version. During installation check all the boxes. **After installation it will ask to "Run ridk install to setup...", uncheck that!**
 - Download [HandbrakeCLI](https://handbrake.fr/downloads2.php), and extract everything to _Path_
 - Download [ffmpeg](http://ffmpeg.zeranoe.com/builds/), and extract everything to _Path_
 - Download the portable version of [mkvtoolnix](https://www.fosshub.com/MKVToolNix.html). Extract everything to _Path_. We don't need all of the tools but they are useful sometimes so I recommend installing all of them
