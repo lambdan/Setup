@@ -1,3 +1,5 @@
+# Adding a folder to _Path_
+
 - Create the folder `c:\in_path`
 - Add this folder to PATH:
 	(Some of the buttons might not be labeled properly as my Windows is in Swedish)
