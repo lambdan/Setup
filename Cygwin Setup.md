@@ -3,9 +3,9 @@
 
 - Install [apt-cyg](https://github.com/transcode-open/apt-cyg)
 		
-		`lynx -source rawgit.com/transcode-open/apt-cyg/master/apt-cyg > apt-cyg`
-		`install apt-cyg /bin`
-		`apt-cyg install wget`
+		lynx -source rawgit.com/transcode-open/apt-cyg/master/apt-cyg > apt-cyg
+		install apt-cyg /bin
+		apt-cyg install wget
 
 - Install openssh: `apt-cyg install openssh` and then restart the terminal. Otherwise you get "Pseudo-terminal not allocated..." error when trying to ssh.
 
