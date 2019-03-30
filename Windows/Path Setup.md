@@ -1,6 +1,7 @@
 # Adding a folder to _Path_
 
 - Create the folder `c:\in_path`
+	- The name of the folder is obviously up to you. Go with something short and without spaces and weird characters.
 - Add this folder to PATH:
 	(Some of the buttons might not be labeled properly as my Windows is in Swedish)
 	- Right click _My Computer_ -> Properties
