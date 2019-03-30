@@ -11,7 +11,7 @@ First, set up a folder that's in your Path: [Path Setup.md](https://github.com/l
 - Open a Command Prompt (`cmd`) or PowerShell and enter `gem install video_transcoding`
 - Done!
 
-## Batch Encoding on Windows
+## Batch Processing
 
 I like to just create a `.bat` file that I place in the folder with the raw `.mkv` files. Here's an example of one:
 
