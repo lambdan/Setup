@@ -19,10 +19,12 @@
 		ssh-keygen -t rsa
 		ssh-copy-id user@server
 
-- Install your own `.minttyrc`:
+- Install your own config files:
 
 		cd ~
 		rm .minttyrc
 		wget https://raw.githubusercontent.com/lambdan/Setup/master/Windows/Configs/.minttyrc
+		rm .bashrc
+		wget https://raw.githubusercontent.com/lambdan/Setup/master/Windows/Configs/.bashrc
 
 
