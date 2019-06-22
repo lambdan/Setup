@@ -10,6 +10,12 @@
 		apt-cyg install wget
 
 - Install openssh: `apt-cyg install openssh` and then restart the terminal. Otherwise you get "Pseudo-terminal not allocated..." error when trying to ssh.
+
+- Add "Bash Prompt Here" to right click menu in Explorer:
+
+		apt-cyg install chere
+		chere -i -t mintty -s bash
+
 - Done
 
 # Optional Steps
