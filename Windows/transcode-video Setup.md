@@ -4,7 +4,7 @@ First, set up a folder that's in your Path: [Path Setup.md](https://github.com/l
 
 - Install Ruby using [RubyInstaller](https://rubyinstaller.org/downloads/). Use the latest non-devkit version. During installation check all the boxes. **After installation it will ask to "Run ridk install to setup...", uncheck that!**
 - Download [HandbrakeCLI](https://handbrake.fr/downloads2.php), and extract everything to _Path_
-- Download [ffmpeg](http://ffmpeg.zeranoe.com/builds/), and extract everything to _Path_
+- Download [ffmpeg](http://ffmpeg.zeranoe.com/builds/), and extract the bin folder to _Path_, so that you have `ffmpeg.exe` in _Path_
 - Download the portable version of [mkvtoolnix](https://www.fosshub.com/MKVToolNix.html). Extract everything to _Path_. We don't need all of the tools but they are useful sometimes so I recommend installing all of them
 - Download [mpv](https://mpv.io/installation/) and extract everyhing to _Path_
 - Download mp4v2. For some reason it is very hard to find an official executable of it, but I've been using the one attached here for years: https://forum.doom9.org/showthread.php?t=171038 - so download that and extract everything to _Path_. (In case that attached file disappears, I have it mirrored here in my repo: [mp4v2-r504-win32.7z](https://github.com/lambdan/Setup/raw/master/Windows/Packages/mp4v2-r504-win32.7z))
