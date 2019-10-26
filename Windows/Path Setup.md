@@ -15,5 +15,5 @@
 
 - [ffmpeg](https://ffmpeg.zeranoe.com/builds/)
 - [mpv](https://mpv.io/installation/)
-- [youtube-dl](https://ytdl-org.github.io/youtube-dl/download.html) (Windows exe, requires [Microsoft Visual C++ 2010 Redistributable Package (x86)](https://www.microsoft.com/en-US/download/details.aspx?id=5555))
-
+- [youtube-dl](https://ytdl-org.github.io/youtube-dl/download.html) (Windows exe, requires [Microsoft Visual C++ 2010 Redistributable Package (x86)](https://www.microsoft.com/en-US/download/details.aspx?id=5555)) (or install using `pip`)
+- [whoislive.py](https://github.com/lambdan/whoislive) + [wil.bat](https://github.com/lambdan/Setup/blob/master/Windows/BAT-files/wil.bat) + [tw.bat](https://github.com/lambdan/Setup/blob/master/Windows/BAT-files/tw.bat)
