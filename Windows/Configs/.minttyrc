@@ -3,7 +3,7 @@ Transparency=off
 BellSound=yes
 CursorType=block
 Font=Consolas
-FontHeight=12
+FontHeight=11
 Locale=sv_SE
 Charset=UTF-8
 RightClickAction=paste
@@ -12,3 +12,4 @@ Term=xterm-256color
 
 Blue=127,127,255
 BoldBlue=191,191,255
+CursorColour=255,0,0
