@@ -20,6 +20,7 @@ Now whenever your computer restarts and Windows starts up, your Kraken should be
 
 ## Optional Steps
 
+- Remove the `pause` line from `kraken_init.bat`. This way the window will automatically go away. I like to leave it on to make sure everything went well. Especially if you dont have a windowed case I would recommend leaving it in.
 - Put `liqs.bat` in _Path_. This way you can type `liqs` (**liq**uid **s**tatus) into any cmd window to monitor your Kraken.
 - Make a shortcut to `liqs.bat` and put it in your Autostart folder. This way the monitor window comes up automatically.
 - Put `krakc.bat` in _Path_. This way you can type `krakc` (**krak**en **c**olor) into any cmd window to get new random colors on the waterblock.
