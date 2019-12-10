@@ -46,7 +46,7 @@ Now whenever your computer restarts and Windows starts up, your Kraken should be
 		- In my experience I don't go over 40°C unless I intentionally run stresstests for hours.
 	- The `--verbose` option is more useful here as you can see how the fans will ramp up.
 
-- Finally at the end we run `kraken_random_color.py` to get a new random color scheme. If we made it this far everything else should've gone fine.
+- Finally at the end we run `kraken_random_color.py` to get a new random color scheme to remove the all red one we set at the beginning. If we made it this far everything else should've gone fine, so if you see random colors: everything should be good!
 
 ## Screenshots
 
