@@ -73,3 +73,5 @@ source $ZSH/oh-my-zsh.sh
 alias s='ssh djs@lambdan.se'
 alias slt=st # redirect slt to zsh plugin sublime, because muscle memory
 tw () { streamlink twitch.tv/$@ best --player mpv;}
+alias liqs="liquidctl status"
+ul() { sh ~/uplimg.sh $@; }

@@ -14,3 +14,12 @@
 		rm .zshrc
 		wget https://raw.githubusercontent.com/lambdan/Setup/master/Mac/Configs/.zshrc
 
+## uplimg.sh
+
+- Download [uplimg.sh script](https://raw.githubusercontent.com/lambdan/Setup/master/Mac/Configs/uplimg.sh) to `~/uplimg.sh`:
+
+		cd ~
+		wget https://raw.githubusercontent.com/lambdan/Setup/master/Mac/Configs/uplimg.sh
+
+- Configure `uplimg.sh` for your server, username etc. 
+
