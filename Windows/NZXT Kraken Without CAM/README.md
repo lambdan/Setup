@@ -1,5 +1,21 @@
 # NZXT Kraken Without Using CAM
 
+# Before You Start
+
+**You don't need to do this!**
+
+The NZXT Kraken X62 is actually quite nice even when you don't control it, which is why I stopped controlling it.
+
+- The RGB is a tasteful white ring spinning around (I don't have a windowed case so that's fine for me)
+- The fans and pump are quiet by default
+- They ramp up when needed
+
+And it makes sense that they're good by default, because most unknowing Kraken customers will probably not install the CAM software. 
+
+So I don't do anything to control it anymore. I just let it run. 
+
+# Or you could do all of this...
+
 ## Pre-reqs
 
 - This is all dependent on [liquidctl](https://github.com/jonasmalacofilho/liquidctl)
