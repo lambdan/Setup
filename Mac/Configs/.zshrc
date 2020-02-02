@@ -75,4 +75,4 @@ alias slt=st # redirect slt to zsh plugin sublime, because muscle memory
 tw () { streamlink twitch.tv/$@ best --player mpv;}
 alias liqs="liquidctl status"
 ul() { sh ~/uplimg.sh $@; }
-alias pullLogs='rsync -rzvh USER@SERVER:/Logging/ ~/Desktop/Logging/'
+alias pullLogs='rsync -rzvh USER@SERVER:~/Logging/ ~/Desktop/Logging/'
