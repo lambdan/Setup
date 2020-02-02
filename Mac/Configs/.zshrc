@@ -70,8 +70,9 @@ plugins=(sublime colorize)
 source $ZSH/oh-my-zsh.sh
 
 # my stuff
-alias s='ssh djs@lambdan.se'
+alias s='ssh USER@SERVER'
 alias slt=st # redirect slt to zsh plugin sublime, because muscle memory
 tw () { streamlink twitch.tv/$@ best --player mpv;}
 alias liqs="liquidctl status"
 ul() { sh ~/uplimg.sh $@; }
+alias pullLogs='rsync -rzvh USER@SERVER:/Logging/ ~/Desktop/Logging/'
