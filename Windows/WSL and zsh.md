@@ -23,16 +23,33 @@ This replaces cygwin.
 		rm .zshrc
 		wget https://raw.githubusercontent.com/lambdan/Setup/master/Windows/Configs/.zshrc
 
+-----------------------------
+
 # Python3 pip fix
 
 To add pip3 packages to path, add this to .zshrc (or other rc): `export PATH="$HOME/.local/bin:$PATH"`
 
 (Already included with the .zshrc above)
 
-# Recommended Packages to NOT install
+# Recommended Packages
 
-Use Windows exe files in [Windows PATH](https://github.com/lambdan/Setup/blob/master/Windows/Path%20Setup.md) instead
+Install using `sudo apt-get install`:
 
-- mpv
-- ffmpeg
-- liquidctl
+- python3
+- vim
+
+## pip packages
+
+- youtube-dl
+- streamlink
+
+# Packages to have in Windows PATH as .exe Files
+
+DO NOT install these using apt-get in WSL.
+
+See [Path Setup](https://github.com/lambdan/Setup/blob/master/Windows/Path%20Setup.md) for instructions on how to set up path.
+
+- [ffmpeg](https://ffmpeg.zeranoe.com/builds/)
+- [mpv](https://mpv.io/installation/)
+- liquidctl 
+	- Use pre-compiled binary: https://github.com/jonasmalacofilho/liquidctl/releases
