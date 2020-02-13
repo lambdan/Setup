@@ -16,17 +16,20 @@ So I don't do anything to control it anymore. I just let it run.
 
 # Or you could do all of this...
 
+(Most of this was written to be used on Windows, but can easily be translated to Unix)
+
 ## Pre-reqs
 
-- This is all dependent on [liquidctl](https://github.com/jonasmalacofilho/liquidctl)
-- You need Python installed for the random color script (and liquidctl but it's bundled in the release exe for liquidctl)
-- I recommend putting everything in a folder that is in your `%PATH%`. Read more here: [Path Setup](https://github.com/lambdan/Setup/blob/master/Windows/Path%20Setup.md). From here on I refer to it as _Path_.
+- This is all dependent on [liquidctl](https://github.com/jonasmalacofilho/liquidctl), which requires Python
+- You also need Python installed for the random color script
 - I use Windows so therefore I use `.bat` files for their simplicity. All of this should work fine on Unix systems if you just translate them to Bash scripts
 - I have only tested with _NZXT Kraken X62_, as that is the cooler I have
 
 ## Steps
 
-- Put [liquidctl.exe](https://github.com/jonasmalacofilho/liquidctl/releases) in a folder (I recommend _Path_)
+- Install liquidctl
+	- Read their README
+	- On Windows, just put [liquidctl.exe](https://github.com/jonasmalacofilho/liquidctl/releases) in PATH
 - Put `kraken_init.bat` in the same folder	
 - Put `kraken_random_color.py` in the same folder
 - Run `kraken_init.bat` and make sure it works (it should set the speeds and you should get random RGB on the waterblock)
