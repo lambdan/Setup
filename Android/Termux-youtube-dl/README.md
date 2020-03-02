@@ -29,7 +29,7 @@ By default, videos are saved to the internal storage Movies folder and audio is 
 
         mkdir ~/bin
         cd ~/bin
-        curl -o termux-url-opener "https://raw.githubusercontent.com/lambdan/Setup/master/Android/Termux/ytdl.sh" 
+        curl -o termux-url-opener "https://raw.githubusercontent.com/lambdan/Setup/master/Android/Termux-youtube-dl/ytdl.sh" 
  
  6. Done!
  
