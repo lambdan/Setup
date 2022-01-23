@@ -19,6 +19,7 @@ alias s='ssh X@Y'
 alias c=clear
 alias x='xdg-open'
 
+psg () { ps aux | grep -i $@; }
 tw () { streamlink twitch.tv/$@ best; }
 UplImg() { python3 ~/UploadImage.py $@; }
 path () { python3 -c "import os;print(os.path.realpath(\""$1\""))" }
