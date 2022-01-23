@@ -13,6 +13,7 @@ plugins=(git colorize sublime command-time pip catimg)
 alias wil='python3 ~/whoislive.py'
 alias s='ssh X@Y'
 alias c=clear
+alias slt='subl'
 
 psg () { ps aux | grep -i $@; }
 tw () { streamlink twitch.tv/$@ best --player=mpv.exe; }
