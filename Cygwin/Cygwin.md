@@ -14,7 +14,9 @@ Install Cygwin using the normal installer from https://cygwin.com/install.html, 
 		sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 		chere -i -t mintty -s zsh
 
-Add `zsh && exit` to top of `.bashrc`
+## Set zsh as default shell
+
+In Windows Environment Variables settings, add an entry called `SHELL` and in it put the unix path to zsh (`/usr/bin/zsh`)
 
 ## ssh
 
